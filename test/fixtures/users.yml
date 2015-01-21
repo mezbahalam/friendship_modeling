@@ -3,6 +3,7 @@ mezbah:
   last_name: "Alam"
   email: "mezbahalam26@gmail.com"
   profile_name: "mezbah_alam"
+  encrypted_password: "$2a$10$Fh/Hm8RxDsuPTeBUr6864.GARlcmt7zF2WspaXGr3BIv2C27N.osq"
 
 mezba:
   first_name: "Mezba"
