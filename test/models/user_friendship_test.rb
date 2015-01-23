@@ -15,4 +15,10 @@ class UserFriendshipTest < ActiveSupport::TestCase
     UserFriendship.create user_id: users(:mezbah), friend: users(:mez)
     assert users(:mezbah).friends.include?(users(:mez))
   end
+
+  context "a new instance" do
+    setup do
+      UserFriendship.new user: users(:mezbah), friend: users(:mez)
+    end
+  end
 end
