@@ -12,7 +12,7 @@ class UserFriendshipTest < ActiveSupport::TestCase
   end
 
   test "that creating a friendship based on user id and friend id works" do
-    UserFriendship.create user_id: users(:mezbah), friend: users(:mez)
+    UserFriendship.create user_id: users(:mezbah).id, friend_id: users(:mez).id
     assert users(:mezbah).pending_friends.include?(users(:mez))
   end
 
