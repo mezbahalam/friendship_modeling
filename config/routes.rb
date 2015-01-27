@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'profiles/show'
 
   as :user do
     get '/register', to: 'devise/registrations#new', as: :register

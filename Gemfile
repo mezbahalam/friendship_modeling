@@ -5,6 +5,8 @@ gem 'rails', '4.1.8'
   group :test do
     gem 'shoulda'
     gem 'better_errors'
+    gem 'factory_girl_rails'
+
   end
 
   group :development, :test do
